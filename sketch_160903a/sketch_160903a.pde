@@ -10,7 +10,7 @@ float boxPosX;
 float boxPosY;
 void setup()
 {
- size(frame_width,frame_height);
+ size(640,480);
   rect((frame_width/2)-(ILLISION_SIZE/2), (frame_height/2)-(ILLISION_SIZE/2), ILLISION_SIZE, ILLISION_SIZE);
 }
 
@@ -20,12 +20,12 @@ void draw()
   for(int i=0; i<BOX_PER_SIDE; i++)
   {
     
-     for(int i=0; i<BOX_PER_SIDE; i++)
+     for(int j=0; i<BOX_PER_SIDE; i++)
      {
        boxPosX=(frame_width/2)-(ILLISION_SIZE/2)+x_offset;
        
-       boxPosY=frame_height/2)-(ILLISION_SIZE/2)+y_offset;
-       rect((frame_width/2)-(ILLISION_SIZE/2), (frame_height/2)-(ILLISION_SIZE/2)
+       boxPosY=(frame_height/2)-(ILLISION_SIZE/2)+y_offset;
+       //rect((frame_width/2)-(ILLISION_SIZE/2), (frame_height/2)-(ILLISION_SIZE/2);
        
      }
     
